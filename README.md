@@ -10,7 +10,7 @@ Built as a demo for **Buynamics** to showcase dashboarding, filtering, and chart
 1. **Clone the repository and set up the environment**:
 
 ```bash
-git clone https://github.com/your-username/buynamics-dashboard.git
+git clone https://github.com/JurreStabel/buynamics-dashboard.git
 cd buynamics-dashboard
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
