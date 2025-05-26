@@ -1,2 +1,19 @@
+# Buynamics Streamlit Dashboard
 
-Streamlit demo voor buynamics. Om te gebruiken moet je de repo clonen en dan vanuit de project root run je in de terminal: 'streamlit run app.py' -> dit opent een localhost.
+A lightweight and interactive Streamlit app for visualizing datasets.  
+Built as a demo for **Buynamics** to showcase dashboarding, filtering, and charting capabilities.
+
+---
+
+## Quick Start
+
+1. **Clone the repository and set up the environment**:
+
+```bash
+git clone https://github.com/your-username/buynamics-dashboard.git
+cd buynamics-dashboard
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+
