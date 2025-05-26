@@ -15,7 +15,19 @@ with st.sidebar:
     option = st.selectbox("Options:", ['Start', 'Instructions', 'Analyze data', 'Visualize data'])
 
 if option == 'Start':
-    st.title('Welcome to :orange[Buynamics] dashboard')
+    st.markdown(
+        """
+        <h1 style='text-align: center;'>
+            Welcome to <span style='color: #FF6F00;'>Buynamics</span> dashboard
+        </h1>
+        """,
+        unsafe_allow_html=True
+    )
+    st.divider()
+    
+    col1, col2, col3 = st.columns([1, 2, 1])  
+    with col2:
+        st.image('assets/WTP-logo-buynamics-oranje-KB.svg', width=360)
 
 elif option == 'Instructions':
     st.title(':orange[Instructions]')
